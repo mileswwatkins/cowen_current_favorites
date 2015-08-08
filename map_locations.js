@@ -49,8 +49,10 @@ function createMap() {
         });
 
         google.maps.event.addListener(marker, 'click', function() {
+            console.log(restaurant.address)
             infoWindow.setContent(
-                '<a href="' + restaurant.url + '"><b>' + restaurant.name + "</b></a>" + "<br>" + restaurant.address
+                '<b>' + restaurant.name + "</b>" + ' <a href="' + restaurant.url + '">' + "(Tyler's Review)</a><br>" +
+                restaurant.address + ' <a href="https://www.google.com/maps/dir//' + restaurant.address.split(' ').join('+') + '">(Directions)</a>'
             );
             infoWindow.open(map, this);
         });
