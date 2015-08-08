@@ -3,7 +3,7 @@ restaurants = [{"name": "Baan Thai", "coordinates": [-77.0323817, 38.90815500000
 
 function main() {
     // Identify map bounds and create map object
-    mapBounds = new google.maps.LatLngBounds();
+    var mapBounds = new google.maps.LatLngBounds();
 
     restaurants.forEach(function(restaurant) {
         mapBounds.extend(new google.maps.LatLng(
@@ -12,13 +12,17 @@ function main() {
         ));
     });
 
-    map = new google.maps.Map(
+    var map = new google.maps.Map(
         document.getElementById("map-canvas")
     );
     map.setCenter(mapBounds.getCenter())
     map.fitBounds(mapBounds);
 
-    infoWindow = new google.maps.InfoWindow();
+    // Show DC Metro lines
+    var transitLayer = new google.maps.TransitLayer();
+    transitLayer.setMap(map);
+
+    var infoWindow = new google.maps.InfoWindow();
 
     // Add each restaurant to the map
     restaurants.forEach(function(restaurant) {
