@@ -1,5 +1,4 @@
 import json
-import io
 
 import geocoder
 import lxml.html
@@ -27,14 +26,16 @@ for review in review_links:
     address = addresses[0]
 
     geocoded = geocoder.google(address)
-    # assert geocoded.confidence >= WITHIN_1_KM_CONFIDENCE_SCORE
     coordinates = geocoded.geometry['coordinates']
 
-    print(name)
-    print(address)
-    print(coordinates)
-    locations.append({'name': name, 'address': address, 'coordinates': coordinates})
+    if geocoded.confidence >= WITHIN_1_KM_CONFIDENCE_SCORE:
+        print(name)
+        print(url)
+        print(address)
+        print(coordinates)
+        locations.append({'name': name, 'url': url, 'address': address, 'coordinates': coordinates})
+    else:
+        print("WARNING: Unable to properly locate {}; skipping it".format(name))
 
-with io.open('locations.json', 'w', encoding='utf8') as file_:
-    data = json.dumps(locations, ensure_ascii=False)
-    file_.write(unicode(data))
+with open('locations.json', 'w') as file_:
+    json.dump(locations, file_, ensure_ascii=False, indent=4)
