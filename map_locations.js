@@ -10,6 +10,12 @@ function main() {
 
         // Initialize the map now that the data has been loaded
         createMap();
+
+        // When the user clicks the map, remove the overlying branding text
+        var textElem = document.getElementById("branding-text");
+        document.body.addEventListener('click', function() {
+            textElem.remove();
+        }, false);
     };
     JSONRequest.send();
 }
@@ -25,8 +31,13 @@ function createMap() {
         ));
     });
 
+    var mapOptions = {
+        panControl: false,
+        mapTypeControl: false,
+    }
     var map = new google.maps.Map(
-        document.getElementById("map-canvas")
+        document.getElementById("map-canvas"),
+        mapOptions
     );
     map.setCenter(mapBounds.getCenter())
     map.fitBounds(mapBounds);
@@ -51,8 +62,8 @@ function createMap() {
         google.maps.event.addListener(marker, 'click', function() {
             console.log(restaurant.address)
             infoWindow.setContent(
-                '<b>' + restaurant.name + "</b>" + ' <a href="' + restaurant.url + '">' + "(Tyler's Review)</a><br>" +
-                restaurant.address + ' <a href="https://www.google.com/maps/dir//' + restaurant.address.split(' ').join('+') + '">(Directions)</a>'
+                '<b>' + restaurant.name + "</b>" + ' <a target="_blank" href="' + restaurant.url + '">' + "(Tyler's Review)</a><br>" +
+                restaurant.address + ' <a target="_blank" href="https://www.google.com/maps/dir//' + restaurant.address.split(' ').join('+') + '">(Directions)</a>'
             );
             infoWindow.open(map, this);
         });
