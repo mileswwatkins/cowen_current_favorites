@@ -1,10 +1,19 @@
 [
     {
+        "url": "https://tylercowensethnicdiningguide.com/index.php/marib/", 
+        "name": "Marib", 
+        "coordinates": [
+            -77.1845226, 
+            38.795231
+        ], 
+        "address": "6981 Hechinger Drive, Springfield, VA"
+    }, 
+    {
         "url": "https://tylercowensethnicdiningguide.com/index.php/baan-thai/", 
         "name": "Baan Thai", 
         "coordinates": [
-            -77.0323817, 
-            38.90815500000001
+            -77.03230649999999, 
+            38.9081524
         ], 
         "address": "1326 14th Street NW, Washington, DC"
     }, 
@@ -12,8 +21,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/nanjing-bistro/", 
         "name": "Nanjing Bistro", 
         "coordinates": [
-            -77.33416319999999, 
-            38.8502173
+            -77.3340245, 
+            38.8502313
         ], 
         "address": "11213 Lee Highway, Suite C, Fairfax, VA"
     }, 
@@ -39,8 +48,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/super-bowl-noodle-house/", 
         "name": "Super Bowl Noodle House", 
         "coordinates": [
-            -77.14141579999999, 
-            39.0768915
+            -77.1414422, 
+            39.0769099
         ], 
         "address": "785-G Rockville Pike, Rockville, MD"
     }, 
@@ -48,8 +57,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/hunan-taste/", 
         "name": "Hunan Taste", 
         "coordinates": [
-            -77.2960362, 
-            38.8621481
+            -77.29604549999999, 
+            38.8621769
         ], 
         "address": "10160 Fairfax Blvd., Fairfax, VA"
     }, 
@@ -66,8 +75,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/saba/", 
         "name": "Saba", 
         "coordinates": [
-            -77.27103280000001, 
-            38.8440697
+            -77.27111579999999, 
+            38.8441574
         ], 
         "address": "3900 A Pickett Road, Fairfax, VA"
     }, 
@@ -75,8 +84,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/thai-taste-by-kob/", 
         "name": "Thai Taste by Kob", 
         "coordinates": [
-            -77.04915799999999, 
-            39.040656
+            -77.04918119999999, 
+            39.0406586
         ], 
         "address": "11315 Fern Street, Wheaton, MD"
     }, 
@@ -111,8 +120,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/siroo/", 
         "name": "Siroo", 
         "coordinates": [
-            -77.19785569999999, 
-            38.832573
+            -77.1978578, 
+            38.832556
         ], 
         "address": "4231-N Markham Street, Annandale, VA"
     }, 
@@ -120,8 +129,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/blue-sand-seafood/", 
         "name": "Blue Sand Seafood", 
         "coordinates": [
-            -77.19785569999999, 
-            38.832573
+            -77.1978578, 
+            38.832556
         ], 
         "address": "4231-H Markham Street, Annandale, VA"
     }, 
@@ -129,8 +138,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/kogiya-korean-bbq/", 
         "name": "Kogiya, Korean BBQ", 
         "coordinates": [
-            -77.1970375, 
-            38.8318794
+            -77.1970837, 
+            38.8318732
         ], 
         "address": "4220 Annandale Road, Annandale, VA"
     }, 
@@ -201,8 +210,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/keren-restaurant/", 
         "name": "Keren Restaurant", 
         "coordinates": [
-            -77.0412654, 
-            38.9167413
+            -77.0412576, 
+            38.916789
         ], 
         "address": "1780 Florida Avenue NW, Washington, DC"
     }, 
@@ -210,8 +219,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/hunan-gate-restaurant/", 
         "name": "Hunan Gate Restaurant", 
         "coordinates": [
-            -77.0881232, 
-            38.8880747
+            -77.1116953, 
+            38.8824817
         ], 
         "address": "4233 N. Fairfax Drive, Arlington, VA"
     }, 
@@ -219,8 +228,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/bang-ga-nae/", 
         "name": "Bang Ga Nae", 
         "coordinates": [
-            -77.1573982, 
-            38.820854
+            -77.1573866, 
+            38.8208735
         ], 
         "address": "6499 Little River Turnpike, Alexandria, VA"
     }, 
@@ -241,14 +250,5 @@
             38.8311748
         ], 
         "address": "7217 Columbia Pike, Annandale, VA,"
-    }, 
-    {
-        "url": "https://tylercowensethnicdiningguide.com/index.php/super-chicken/", 
-        "name": "Super Chicken", 
-        "coordinates": [
-            -77.1756856, 
-            38.8802517
-        ], 
-        "address": "422 S. Washington Street, Falls Church, VA"
     }
 ]
