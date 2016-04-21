@@ -1,5 +1,14 @@
 [
     {
+        "url": "https://tylercowensethnicdiningguide.com/index.php/takumi/", 
+        "name": "Takumi", 
+        "coordinates": [
+            -77.1733395, 
+            38.8802506
+        ], 
+        "address": "301 S. Washington Blvd., Falls Church, VA"
+    }, 
+    {
         "url": "https://tylercowensethnicdiningguide.com/index.php/marib/", 
         "name": "Marib", 
         "coordinates": [
@@ -12,8 +21,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/baan-thai/", 
         "name": "Baan Thai", 
         "coordinates": [
-            -77.03230649999999, 
-            38.9081524
+            -77.0323817, 
+            38.90815500000001
         ], 
         "address": "1326 14th Street NW, Washington, DC"
     }, 
@@ -147,8 +156,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/nostos/", 
         "name": "Nostos", 
         "coordinates": [
-            -77.225894, 
-            38.9138145
+            -77.2258873, 
+            38.9136862
         ], 
         "address": "8100 Boone Blvd, Vienna, VA"
     }, 
@@ -201,8 +210,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/jewel-of-india/", 
         "name": "Jewel of India", 
         "coordinates": [
-            -76.97679579999999, 
-            39.02118
+            -76.9767945, 
+            39.0211767
         ], 
         "address": "10151 New Hampshire Avenue, Silver Spring, MD"
     }, 
@@ -234,6 +243,15 @@
         "address": "6499 Little River Turnpike, Alexandria, VA"
     }, 
     {
+        "url": "https://tylercowensethnicdiningguide.com/index.php/rr-tacqueria-gas-station-tacos/", 
+        "name": "R&R Tacqueria  Gas station tacos", 
+        "coordinates": [
+            -76.7847771, 
+            39.1725698
+        ], 
+        "address": "7894 Washington Blvd. (Rt.1), Elkridge, MD"
+    }, 
+    {
         "url": "https://tylercowensethnicdiningguide.com/index.php/damoim/", 
         "name": "DaMoim", 
         "coordinates": [
@@ -241,14 +259,5 @@
             38.833016
         ], 
         "address": "7106 Columbia Pike, Annandale, VA"
-    }, 
-    {
-        "url": "https://tylercowensethnicdiningguide.com/index.php/mandu-rang-kimbob/", 
-        "name": "Mandu Rang Kimbob", 
-        "coordinates": [
-            -77.1943774, 
-            38.8311748
-        ], 
-        "address": "7217 Columbia Pike, Annandale, VA,"
     }
 ]
