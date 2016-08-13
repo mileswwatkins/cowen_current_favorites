@@ -40,9 +40,10 @@ for review in review_links:
     else:
         warnings.append(name)
 
-print("\nWARNING: Couldn't adequately geocode the following restaurants, so they were skipped")
-for restaurant in warnings:
-    print(restaurant)
+if warnings:
+    print("\nWARNING: Couldn't adequately geocode the following restaurants, so they were skipped")
+    for restaurant in warnings:
+        print(restaurant)
 
 with open('locations.json', 'w') as file_:
     json.dump(locations, file_, ensure_ascii=False, indent=4)

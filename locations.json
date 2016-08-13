@@ -3,10 +3,10 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/takumi/", 
         "name": "Takumi", 
         "coordinates": [
-            -77.1733395, 
-            38.8802506
+            -77.173571, 
+            38.8806523
         ], 
-        "address": "301 S. Washington Blvd., Falls Church, VA"
+        "address": "310 S. Washington Blvd., Falls Church, VA"
     }, 
     {
         "url": "https://tylercowensethnicdiningguide.com/index.php/marib/", 
@@ -21,8 +21,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/baan-thai/", 
         "name": "Baan Thai", 
         "coordinates": [
-            -77.0323817, 
-            38.90815500000001
+            -77.0323549, 
+            38.9081481
         ], 
         "address": "1326 14th Street NW, Washington, DC"
     }, 
@@ -135,6 +135,15 @@
         "address": "4231-N Markham Street, Annandale, VA"
     }, 
     {
+        "url": "https://tylercowensethnicdiningguide.com/index.php/aladdin/", 
+        "name": "Aladdin", 
+        "coordinates": [
+            -86.6598358, 
+            34.73911080000001
+        ], 
+        "address": "5169 Lee Highway, Garden City Shopping Center, Arlington, VA"
+    }, 
+    {
         "url": "https://tylercowensethnicdiningguide.com/index.php/blue-sand-seafood/", 
         "name": "Blue Sand Seafood", 
         "coordinates": [
@@ -174,8 +183,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/panda-gourmet/", 
         "name": "Panda Gourmet", 
         "coordinates": [
-            -76.97047210000001, 
-            38.9177601
+            -76.9696211, 
+            38.9178218
         ], 
         "address": "2700 New York Avenue NE, Washington, DC"
     }, 
