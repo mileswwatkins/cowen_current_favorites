@@ -75,8 +75,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/the-partisan/", 
         "name": "The Partisan", 
         "coordinates": [
-            -77.0224692, 
-            38.8949871
+            -77.022516, 
+            38.89502600000001
         ], 
         "address": "709 D Street NW, Washington, DC"
     }, 
@@ -135,6 +135,15 @@
         "address": "4231-N Markham Street, Annandale, VA"
     }, 
     {
+        "url": "https://tylercowensethnicdiningguide.com/index.php/aladdin/", 
+        "name": "Aladdin", 
+        "coordinates": [
+            -77.1325171, 
+            38.8967032
+        ], 
+        "address": "5169 Lee Highway, Garden City Shopping Center, Arlington, VA"
+    }, 
+    {
         "url": "https://tylercowensethnicdiningguide.com/index.php/blue-sand-seafood/", 
         "name": "Blue Sand Seafood", 
         "coordinates": [
@@ -183,8 +192,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/bobs-shanghai-66/", 
         "name": "Bobs Shanghai 66", 
         "coordinates": [
-            -77.1536844, 
-            39.0887012
+            -77.1537037, 
+            39.088721
         ], 
         "address": "305 North Washington Street, Rockville, MD"
     }, 
@@ -210,8 +219,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/jewel-of-india/", 
         "name": "Jewel of India", 
         "coordinates": [
-            -76.9767945, 
-            39.0211767
+            -76.9768124, 
+            39.0211723
         ], 
         "address": "10151 New Hampshire Avenue, Silver Spring, MD"
     }, 
