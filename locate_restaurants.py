@@ -29,6 +29,12 @@ for review in review_links:
     address = addresses[0]
 
     geocoded = geocoder.google(address)
+    if 'coordinates' not in geocoded.geometry:
+        # Try again, using the name of the restaurant and the city-state
+        city = address.split(',')[-2].strip()
+        state = address.split(',')[-1].strip()
+        alternative_search = '{}, {}, {}'.format(name, city, state)
+        geocoded = geocoder.google(alternative_search)
     coordinates = geocoded.geometry['coordinates']
 
     if geocoded.confidence >= WITHIN_1_KM_CONFIDENCE_SCORE:
