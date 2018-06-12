@@ -1,4 +1,6 @@
 import json
+import logging
+import time
 
 import geocoder
 import lxml.html
@@ -7,6 +9,11 @@ import requests
 
 WITHIN_1_KM_CONFIDENCE_SCORE = 8
 FORMATTING_SPACE = '  '
+WAIT_TIME = 0.5
+
+logger = logging.getLogger(__file__)
+logger.addHandler(logging.StreamHandler())
+logger.setLevel(logging.INFO)
 
 locations = []
 warnings = []
@@ -15,7 +22,8 @@ BASE_URL = 'http://tylercowensethnicdiningguide.com/'
 page = requests.get(BASE_URL)
 doc = lxml.html.fromstring(page.text)
 
-review_links = doc.xpath('//h3[text()="Current Favorites"]/following-sibling::ul/li/a')
+review_links = doc.xpath('//h3[text()="Current Favorites"]/following-sibling::ul/li/div/a')
+logger.info('Found {} restaurants listed on TCEDG.com'.format(len(review_links)))
 for review in review_links:
     (url, ) = review.xpath('@href')
     (name, ) = review.xpath('text()')
@@ -38,18 +46,20 @@ for review in review_links:
     coordinates = geocoded.geometry['coordinates']
 
     if geocoded.confidence >= WITHIN_1_KM_CONFIDENCE_SCORE:
-        print(name)
-        print(FORMATTING_SPACE + url)
-        print(FORMATTING_SPACE + address)
-        print(FORMATTING_SPACE + str(coordinates))
+        logger.info(name)
+        logger.info(FORMATTING_SPACE + url)
+        logger.info(FORMATTING_SPACE + address)
+        logger.info(FORMATTING_SPACE + str(coordinates))
         locations.append({'name': name, 'url': url, 'address': address, 'coordinates': coordinates})
     else:
         warnings.append(name)
 
+    time.sleep(WAIT_TIME)
+
 if warnings:
-    print("\nWARNING: Couldn't adequately geocode the following restaurants, so they were skipped")
+    logger.warn("Couldn't adequately geocode the following restaurants, so they were skipped")
     for restaurant in warnings:
-        print(restaurant)
+        logger.warn(restaurant)
 
 with open('locations.json', 'w') as file_:
     json.dump(locations, file_, ensure_ascii=False, indent=4)
