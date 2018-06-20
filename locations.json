@@ -1,5 +1,14 @@
 [
     {
+        "url": "https://tylercowensethnicdiningguide.com/index.php/asian-origin/", 
+        "name": "Asian Origin", 
+        "coordinates": [
+            -77.2285702, 
+            38.9207928
+        ], 
+        "address": "1753 Pinnacle Drive, McLean, VA"
+    }, 
+    {
         "url": "https://tylercowensethnicdiningguide.com/index.php/bistro-aracosia/", 
         "name": "Bistro Aracosia", 
         "coordinates": [
@@ -7,6 +16,24 @@
             38.924938
         ], 
         "address": "5100 MacArthur Blvd. NW, Washington, DC"
+    }, 
+    {
+        "url": "https://tylercowensethnicdiningguide.com/index.php/maydan/", 
+        "name": "Maydan", 
+        "coordinates": [
+            -77.03106009999999, 
+            38.9200557
+        ], 
+        "address": "1346 Florida Ave NW, Washington, DC"
+    }, 
+    {
+        "url": "https://tylercowensethnicdiningguide.com/index.php/menomale/", 
+        "name": "Menomale", 
+        "coordinates": [
+            -76.99014869999999, 
+            38.9248479
+        ], 
+        "address": "2711 12th St NE, Washington, DC"
     }, 
     {
         "url": "https://tylercowensethnicdiningguide.com/index.php/takumi/", 
@@ -25,6 +52,15 @@
             38.7955837
         ], 
         "address": "6981 Hechinger Drive, Springfield, VA"
+    }, 
+    {
+        "url": "https://tylercowensethnicdiningguide.com/index.php/alborz/", 
+        "name": "Alborz", 
+        "coordinates": [
+            -77.2366833, 
+            38.9154709
+        ], 
+        "address": "8417 Old Courthouse Road, Vienna, VA"
     }, 
     {
         "url": "https://tylercowensethnicdiningguide.com/index.php/baan-thai/", 
@@ -102,8 +138,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/thai-taste-by-kob/", 
         "name": "Thai Taste by Kob", 
         "coordinates": [
-            -77.04918119999999, 
-            39.0406586
+            -77.0492055, 
+            39.0406491
         ], 
         "address": "11315 Fern Street, Wheaton, MD"
     }, 
@@ -156,8 +192,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/blue-sand-seafood/", 
         "name": "Blue Sand Seafood", 
         "coordinates": [
-            -77.197693, 
-            38.832528
+            -77.19783559999999, 
+            38.832559
         ], 
         "address": "4231-H Markham Street, Annandale, VA"
     }, 
@@ -232,41 +268,5 @@
             39.0218923
         ], 
         "address": "10151 New Hampshire Avenue, Silver Spring, MD"
-    }, 
-    {
-        "url": "https://tylercowensethnicdiningguide.com/index.php/keren-restaurant/", 
-        "name": "Keren Restaurant", 
-        "coordinates": [
-            -77.0412551, 
-            38.9168463
-        ], 
-        "address": "1780 Florida Avenue NW, Washington, DC"
-    }, 
-    {
-        "url": "https://tylercowensethnicdiningguide.com/index.php/hunan-gate-restaurant/", 
-        "name": "Hunan Gate Restaurant", 
-        "coordinates": [
-            -77.1117175, 
-            38.8823703
-        ], 
-        "address": "4233 N. Fairfax Drive, Arlington, VA"
-    }, 
-    {
-        "url": "https://tylercowensethnicdiningguide.com/index.php/bang-ga-nae/", 
-        "name": "Bang Ga Nae", 
-        "coordinates": [
-            -77.157387, 
-            38.820874
-        ], 
-        "address": "6499 Little River Turnpike, Alexandria, VA"
-    }, 
-    {
-        "url": "https://tylercowensethnicdiningguide.com/index.php/rr-tacqueria-gas-station-tacos/", 
-        "name": "R&R Tacqueria  Gas station tacos", 
-        "coordinates": [
-            -76.7848949, 
-            39.1725356
-        ], 
-        "address": "7894 Washington Blvd. (Rt.1), Elkridge, MD"
     }
 ]

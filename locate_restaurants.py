@@ -9,7 +9,8 @@ import requests
 
 WITHIN_1_KM_CONFIDENCE_SCORE = 8
 FORMATTING_SPACE = '  '
-WAIT_TIME = 0.5
+GEOCODING_ATTEMPTS = 5
+GEOCODING_WAIT = 2
 
 logger = logging.getLogger(__file__)
 logger.addHandler(logging.StreamHandler())
@@ -36,7 +37,21 @@ for review in review_links:
     addresses = doc.xpath('//a[contains(@href, "google.com/maps") and not(text()="Google")]/text()')
     address = addresses[0]
 
-    geocoded = geocoder.google(address)
+    # Sometimes geocoding fails, presumably due to rate-limiting,
+    # so enable retries on an exponential timeout
+    geocoded = None
+    attempts = 0
+    while attempts < GEOCODING_ATTEMPTS:
+        time.sleep(GEOCODING_WAIT ** attempts)
+        geocoded = geocoder.google(address)
+        if geocoded:
+            break
+        else:
+            logger.warning("Failed geocoding {}, retrying now".format(name))
+            attempts += 1
+    else:
+        raise ValueError("Failed geocoding {} after {} retries".format(name, GEOCODING_ATTEMPTS))
+
     if 'coordinates' not in geocoded.geometry:
         # Try again, using the name of the restaurant and the city-state
         city = address.split(',')[-2].strip()
@@ -53,8 +68,6 @@ for review in review_links:
         locations.append({'name': name, 'url': url, 'address': address, 'coordinates': coordinates})
     else:
         warnings.append(name)
-
-    time.sleep(WAIT_TIME)
 
 if warnings:
     logger.warn("Couldn't adequately geocode the following restaurants, so they were skipped")
