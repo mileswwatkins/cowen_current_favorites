@@ -76,3 +76,4 @@ if warnings:
 
 with open('locations.json', 'w') as file_:
     json.dump(locations, file_, ensure_ascii=False, indent=4)
+    logger.info('Successfully finished and wrote to JSON file')

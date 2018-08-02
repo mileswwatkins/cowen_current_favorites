@@ -1,5 +1,14 @@
 [
     {
+        "url": "https://tylercowensethnicdiningguide.com/index.php/xian-gourmet/", 
+        "name": "Xian Gourmet", 
+        "coordinates": [
+            -77.1541336, 
+            39.08996
+        ], 
+        "address": "316 N Washington St, Rockville, MD"
+    }, 
+    {
         "url": "https://tylercowensethnicdiningguide.com/index.php/asian-origin/", 
         "name": "Asian Origin", 
         "coordinates": [
@@ -66,8 +75,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/baan-thai/", 
         "name": "Baan Thai", 
         "coordinates": [
-            -77.03230649999999, 
-            38.9081524
+            -77.0324957, 
+            38.9081483
         ], 
         "address": "1326 14th Street NW, Washington, DC"
     }, 
@@ -259,14 +268,5 @@
             38.8966064
         ], 
         "address": "5151 Lee Highway, Arlington, VA"
-    }, 
-    {
-        "url": "https://tylercowensethnicdiningguide.com/index.php/jewel-of-india/", 
-        "name": "Jewel of India", 
-        "coordinates": [
-            -76.9761255, 
-            39.0218923
-        ], 
-        "address": "10151 New Hampshire Avenue, Silver Spring, MD"
     }
 ]
