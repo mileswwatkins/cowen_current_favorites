@@ -60,7 +60,6 @@ function createMap () {
     })
 
     window.google.maps.event.addListener(marker, 'click', function () {
-      console.log(restaurant.address)
       infoWindow.setContent(
         '<b>' + restaurant.name + '</b>' + ' <a target="_blank" href="' + restaurant.url + '">' + "(Tyler's Review)</a><br>" +
               restaurant.address + ' <a target="_blank" href="https://www.google.com/maps/dir//' + restaurant.address.split(' ').join('+') + '">(Directions)</a>'
