@@ -43,11 +43,11 @@ for review in review_links:
     attempts = 0
     while attempts < GEOCODING_ATTEMPTS:
         time.sleep(GEOCODING_WAIT ** attempts)
-        # `GOOGLE_API_KEY` must be set in the environment,
-        # otherwise all geocoding will fail
         geocoded = geocoder.google(address)
         if geocoded:
             break
+        elif geocoded.status == 'OVER_QUERY_LIMIT':
+            raise KeyError("`GOOGLE_API_KEY` must be set in the environment, otherwise all geocoding will fail")
         else:
             logger.warning("Failed geocoding {}, retrying now".format(name))
             attempts += 1
