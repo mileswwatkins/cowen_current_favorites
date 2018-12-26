@@ -43,6 +43,8 @@ for review in review_links:
     attempts = 0
     while attempts < GEOCODING_ATTEMPTS:
         time.sleep(GEOCODING_WAIT ** attempts)
+        # `GOOGLE_API_KEY` must be set in the environment,
+        # otherwise all geocoding will fail
         geocoded = geocoder.google(address)
         if geocoded:
             break
