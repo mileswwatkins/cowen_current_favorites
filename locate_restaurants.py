@@ -1,3 +1,5 @@
+#! /usr/bin/env python
+
 import json
 import logging
 import time
@@ -28,7 +30,7 @@ logger.info('Found {} restaurants listed on TCEDG.com'.format(len(review_links))
 for review in review_links:
     (url, ) = review.xpath('@href')
     (name, ) = review.xpath('text()')
-    name = name.strip().encode('ascii', 'ignore')
+    name = name.strip().encode('ascii', 'ignore').decode('utf-8')
 
     page = requests.get(url)
     doc = lxml.html.fromstring(page.text)
@@ -46,7 +48,7 @@ for review in review_links:
         geocoded = geocoder.google(address)
         if geocoded:
             break
-        elif geocoded.status == 'OVER_QUERY_LIMIT':
+        elif geocoded.status == 'REQUEST_DENIED':
             raise KeyError("`GOOGLE_API_KEY` must be set in the environment, otherwise all geocoding will fail")
         else:
             logger.warning("Failed geocoding {}, retrying now".format(name))
@@ -76,6 +78,8 @@ if warnings:
     for restaurant in warnings:
         logger.warn(restaurant)
 
+# Sort the output by name, to make git diffs of `locations.json` more readable
+locations.sort(key=lambda x: x['name'])
 with open('locations.json', 'w') as file_:
     json.dump(locations, file_, ensure_ascii=False, indent=4)
-    logger.info('Successfully finished and wrote to JSON file')
+    logger.info("Successfully finished scraping, and updated the JSON file")
