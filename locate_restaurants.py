@@ -49,7 +49,7 @@ for review in review_links:
         if geocoded:
             break
         elif geocoded.status == 'REQUEST_DENIED':
-            raise KeyError("`GOOGLE_API_KEY` must be set in the environment, otherwise all geocoding will fail")
+            raise KeyError("`GOOGLE_API_KEY` must be set in the environment; find yours at `https://console.cloud.google.com/apis/credentials`")
         else:
             logger.warning("Failed geocoding {}, retrying now".format(name))
             attempts += 1

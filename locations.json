@@ -4,8 +4,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/aladdin/",
         "address": "5169 Lee Highway, Garden City Shopping Center, Arlington, VA",
         "coordinates": [
-            -77.132919,
-            38.896697
+            -77.1325171,
+            38.8967032
         ]
     },
     {
@@ -87,15 +87,6 @@
         "coordinates": [
             -77.0094146,
             38.9108082
-        ]
-    },
-    {
-        "name": "East Dumpling House",
-        "url": "https://tylercowensethnicdiningguide.com/index.php/east-dumpling-house/",
-        "address": "12 North Washington St., Suite 14G, Rockville, MD",
-        "coordinates": [
-            -77.1533584,
-            39.0845798
         ]
     },
     {
@@ -186,6 +177,15 @@
         "coordinates": [
             -76.9706475,
             38.9179741
+        ]
+    },
+    {
+        "name": "Poca Madre",
+        "url": "https://tylercowensethnicdiningguide.com/index.php/poca-madre/",
+        "address": "777 Eye St., Techworld Plaza, NW, Washington, DC",
+        "coordinates": [
+            -77.0227419,
+            38.9010641
         ]
     },
     {
