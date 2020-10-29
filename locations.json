@@ -4,8 +4,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/aladdin/",
         "address": "5169 Lee Highway, Garden City Shopping Center, Arlington, VA",
         "coordinates": [
-            -77.1325171,
-            38.8967032
+            -77.1428194,
+            38.8954175
         ]
     },
     {
@@ -22,17 +22,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/ananda/",
         "address": "7421 Maple Lawn Blvd., Fulton, MD",
         "coordinates": [
-            -76.90258229999999,
-            39.1601696
-        ]
-    },
-    {
-        "name": "Asian Origin",
-        "url": "https://tylercowensethnicdiningguide.com/index.php/asian-origin/",
-        "address": "1753 Pinnacle Drive, McLean, VA",
-        "coordinates": [
-            -77.2285702,
-            38.9207928
+            -76.9026853,
+            39.1601742
         ]
     },
     {
@@ -87,6 +78,15 @@
         "coordinates": [
             -77.0094146,
             38.9108082
+        ]
+    },
+    {
+        "name": "East Dumpling House",
+        "url": "https://tylercowensethnicdiningguide.com/index.php/east-dumpling-house/",
+        "address": "12 North Washington St., Suite 14G, Rockville, MD",
+        "coordinates": [
+            -77.153442,
+            39.084665
         ]
     },
     {
