@@ -37,6 +37,13 @@ for review in review_links:
 
     # Only one restaurant has multiple addresses, so just keep the first
     addresses = doc.xpath('//a[contains(@href, "google.com/maps") and not(text()="Google")]/text()')
+    if not addresses:
+        logger.warning(f"Could not find Google Maps URL from {name}'s page ({url})")
+        if not doc.xpath('//a'):
+            logger.debug('The webpage was probably malformed')
+            continue
+        else:
+            exit(1)
     address = addresses[0]
 
     # Sometimes geocoding fails, presumably due to rate-limiting,

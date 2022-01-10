@@ -4,8 +4,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/aladdin/",
         "address": "5169 Lee Highway, Garden City Shopping Center, Arlington, VA",
         "coordinates": [
-            -77.1428194,
-            38.8954175
+            -77.1324946,
+            38.8966807
         ]
     },
     {
@@ -22,8 +22,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/ananda/",
         "address": "7421 Maple Lawn Blvd., Fulton, MD",
         "coordinates": [
-            -76.9026853,
-            39.1601742
+            -76.9025853,
+            39.1601326
         ]
     },
     {
@@ -54,15 +54,6 @@
         ]
     },
     {
-        "name": "Bobs Shanghai 66",
-        "url": "https://tylercowensethnicdiningguide.com/index.php/bobs-shanghai-66/",
-        "address": "305 North Washington Street, Rockville, MD",
-        "coordinates": [
-            -77.1529403,
-            39.0890236
-        ]
-    },
-    {
         "name": "Charcoal Chicken",
         "url": "https://tylercowensethnicdiningguide.com/index.php/charcoal-chicken/",
         "address": "13969 Metrotech Dr., Chantilly, VA",
@@ -76,17 +67,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/dcity-smokehouse/",
         "address": "8 Florida Avenue NW, Washington, DC",
         "coordinates": [
-            -77.0094146,
-            38.9108082
-        ]
-    },
-    {
-        "name": "East Dumpling House",
-        "url": "https://tylercowensethnicdiningguide.com/index.php/east-dumpling-house/",
-        "address": "12 North Washington St., Suite 14G, Rockville, MD",
-        "coordinates": [
-            -77.153442,
-            39.084665
+            -77.0093685,
+            38.9107598
         ]
     },
     {
@@ -126,6 +108,15 @@
         ]
     },
     {
+        "name": "Las Gemelas",
+        "url": "https://tylercowensethnicdiningguide.com/index.php/las-gemelas/",
+        "address": "1280 4th St. NE, Washington, DC",
+        "coordinates": [
+            -76.99976170000001,
+            38.9088799
+        ]
+    },
+    {
         "name": "Marib",
         "url": "https://tylercowensethnicdiningguide.com/index.php/marib/",
         "address": "6981 Hechinger Drive, Springfield, VA",
@@ -148,8 +139,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/menomale/",
         "address": "2711 12th St NE, Washington, DC",
         "coordinates": [
-            -76.99014869999999,
-            38.9248479
+            -76.9902688,
+            38.9248905
         ]
     },
     {
@@ -184,8 +175,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/poca-madre/",
         "address": "777 Eye St., Techworld Plaza, NW, Washington, DC",
         "coordinates": [
-            -77.0227419,
-            38.9010641
+            -77.0179489,
+            38.90167890000001
         ]
     },
     {
@@ -202,8 +193,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/saba/",
         "address": "3900 A Pickett Road, Fairfax, VA",
         "coordinates": [
-            -77.27109089999999,
-            38.84408060000001
+            -77.2711245,
+            38.8440542
         ]
     },
     {
@@ -234,15 +225,6 @@
         ]
     },
     {
-        "name": "Takumi",
-        "url": "https://tylercowensethnicdiningguide.com/index.php/takumi/",
-        "address": "310 S. Washington Blvd., Falls Church, VA",
-        "coordinates": [
-            -77.1735671,
-            38.8806605
-        ]
-    },
-    {
         "name": "Thai Taste by Kob",
         "url": "https://tylercowensethnicdiningguide.com/index.php/thai-taste-by-kob/",
         "address": "11315 Fern Street, Wheaton, MD",
@@ -267,6 +249,15 @@
         "coordinates": [
             -77.1541336,
             39.08996
+        ]
+    },
+    {
+        "name": "Yu Noodles, Fairfax",
+        "url": "https://tylercowensethnicdiningguide.com/index.php/yu-noodles-fairfax/",
+        "address": "11217-C Lee Highway, Fairfax, VA",
+        "coordinates": [
+            -77.3348136,
+            38.8506139
         ]
     }
 ]
