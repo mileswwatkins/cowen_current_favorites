@@ -1,0 +1,27 @@
+on:
+  # This `push` trigger doesn't get activated by CI commits,
+  # so no worries about a runaway loop of CI runs!
+  push:
+    branches:
+      - main
+  # Run weekly
+  schedule:
+    - cron: '0 0 1,8,15,22 * *'
+
+jobs:
+  update-locations:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+          cache: 'pip'
+      - run: pip install -r requirements.txt
+      - run: ./locate_restaurants.py
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern: 'locations.json'
+          commit_message: 'Automatically update locations using GitHub Actions'
