@@ -108,6 +108,15 @@
         ]
     },
     {
+        "name": "La Tingeria",
+        "url": "https://tylercowensethnicdiningguide.com/index.php/la-tingeria/",
+        "address": "626 S Washington St, Falls Church, VA",
+        "coordinates": [
+            -77.1800816,
+            38.879337
+        ]
+    },
+    {
         "name": "Las Gemelas",
         "url": "https://tylercowensethnicdiningguide.com/index.php/las-gemelas/",
         "address": "1280 4th St. NE, Washington, DC",
@@ -159,15 +168,6 @@
         "coordinates": [
             -77.2258787,
             38.91375
-        ]
-    },
-    {
-        "name": "Panda Gourmet",
-        "url": "https://tylercowensethnicdiningguide.com/index.php/panda-gourmet/",
-        "address": "2700 New York Avenue NE, Washington, DC",
-        "coordinates": [
-            -76.970012,
-            38.917842
         ]
     },
     {
