@@ -40,8 +40,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/bistro-aracosia/",
         "address": "5100 MacArthur Blvd. NW, Washington, DC",
         "coordinates": [
-            -77.1016956,
-            38.9249386
+            -77.1014931,
+            38.9249438
         ]
     },
     {
@@ -72,15 +72,6 @@
         ]
     },
     {
-        "name": "Elephant Jumps",
-        "url": "https://tylercowensethnicdiningguide.com/index.php/elephant-jumps/",
-        "address": "8110 A Arlington Blvd, Falls Church, VA",
-        "coordinates": [
-            -77.225781,
-            38.8668415
-        ]
-    },
-    {
         "name": "Elephant Jumps  Update",
         "url": "https://tylercowensethnicdiningguide.com/index.php/elephant-jumps-update/",
         "address": "8110 A Arlington Blvd, Falls Church, VA",
@@ -99,12 +90,12 @@
         ]
     },
     {
-        "name": "Kogiya, Korean BBQ",
-        "url": "https://tylercowensethnicdiningguide.com/index.php/kogiya-korean-bbq/",
-        "address": "4220 Annandale Road, Annandale, VA",
+        "name": "Joon",
+        "url": "https://tylercowensethnicdiningguide.com/index.php/joon/",
+        "address": "8045 Leesburg Pike, Tysons, VA",
         "coordinates": [
-            -77.19708519999999,
-            38.831871
+            -77.22398729999999,
+            38.9129498
         ]
     },
     {
@@ -162,12 +153,12 @@
         ]
     },
     {
-        "name": "Nostos",
-        "url": "https://tylercowensethnicdiningguide.com/index.php/nostos/",
-        "address": "8100 Boone Blvd, Vienna, VA",
+        "name": "Pho Ga Vang",
+        "url": "https://tylercowensethnicdiningguide.com/index.php/pho-ga-vang/",
+        "address": "6767 Wilson Blvd., Eden Center, Falls Church, VA",
         "coordinates": [
-            -77.2258787,
-            38.91375
+            -77.1549014,
+            38.8729413
         ]
     },
     {
@@ -249,6 +240,15 @@
         "coordinates": [
             -77.02250339999999,
             38.8949211
+        ]
+    },
+    {
+        "name": "Truong Tien",
+        "url": "https://tylercowensethnicdiningguide.com/index.php/truong-tien/",
+        "address": "6763 Wilson Blvd., Falls Church, VA",
+        "coordinates": [
+            -77.1545268,
+            38.8743139
         ]
     },
     {
