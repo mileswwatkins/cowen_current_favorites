@@ -45,15 +45,6 @@
         ]
     },
     {
-        "name": "Blue Sand Seafood",
-        "url": "https://tylercowensethnicdiningguide.com/index.php/blue-sand-seafood/",
-        "address": "4231-H Markham Street, Annandale, VA",
-        "coordinates": [
-            -77.19783559999999,
-            38.832559
-        ]
-    },
-    {
         "name": "Charcoal Chicken",
         "url": "https://tylercowensethnicdiningguide.com/index.php/charcoal-chicken/",
         "address": "13969 Metrotech Dr., Chantilly, VA",
@@ -85,8 +76,8 @@
         "url": "https://tylercowensethnicdiningguide.com/index.php/hunan-taste/",
         "address": "10160 Fairfax Blvd., Fairfax, VA",
         "coordinates": [
-            -77.29591359999999,
-            38.86220850000001
+            -77.2960034,
+            38.862138
         ]
     },
     {
@@ -150,6 +141,15 @@
         "coordinates": [
             -77.3345822,
             38.8502259
+        ]
+    },
+    {
+        "name": "One Night in Bangkok",
+        "url": "https://tylercowensethnicdiningguide.com/index.php/one-night-in-bangkok/",
+        "address": "5878 Leesburg Pike, Falls Church, VA",
+        "coordinates": [
+            -77.1340227,
+            38.8534412
         ]
     },
     {
