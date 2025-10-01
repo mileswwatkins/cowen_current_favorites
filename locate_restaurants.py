@@ -41,9 +41,7 @@ for review in review_links:
         logger.warning(f"Could not find Google Maps URL from {name}'s page ({url})")
         if not doc.xpath('//a'):
             logger.debug('The webpage was probably malformed')
-            continue
-        else:
-            exit(1)
+        continue
     address = addresses[0]
 
     # Sometimes geocoding fails, presumably due to rate-limiting,

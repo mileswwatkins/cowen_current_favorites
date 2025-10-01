@@ -12,16 +12,16 @@ jobs:
   update-locations:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
-          python-version: '3.9'
-          cache: 'pip'
-      - run: pip install -r requirements.txt
-      - run: ./locate_restaurants.py
+          python-version: '3.13'
+      - uses: snok/install-poetry@v1
+      - run: poetry install
+      - run: poetry run python locate_restaurants.py
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v6
         with:
           file_pattern: 'locations.json'
           commit_message: 'Automatically update locations using GitHub Actions'
